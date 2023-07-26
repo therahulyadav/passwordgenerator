@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200&display=swap" rel="stylesheet">
+    <title>Password_Generator</title>
+</head>
+<body>
+    
+<div class="pa">
+    <h1 >Password Generator</h1><br>
+    <h2>Instantly generate a secure, random password with the Password Generator</h2>
+</div>
+<section class="sec">
+    <input type="text" id="password" class=""><br>
+        <label  class="length" for="length">Password Length</label>
+        <input type="number" name="Length" id="length"><br>
+        <label class="upper" for="UpperCase">Include uppercase letters</label>
+        <input type="checkbox" value="true" name="upperCase" id="UpperCase"><br>
+        <label class="lower" for="LowerCase">Include lowercase letters</label>
+        <input type="checkbox" name="lowerCase" id="LowerCase"><br>
+        <label  class="number"for="Number">Include numbers</label>
+        <input type="checkbox" name="numbers" id="Number"><br>
+        <label class="symbol" for="Symbols">Inlcude Symbols</label>
+        <input type="checkbox" name="symbols" id="Symbols"><br>
+        <input class="button" id="gen" type="button" value="Generate Password">
+    <script src="app.js"></script>
+</section>
+</body>
+</html>

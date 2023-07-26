@@ -1,0 +1,37 @@
+html{
+    background-color:#55D6BE;
+    min-height: 100vh;
+}
+.sec{
+    text-align: center;
+}
+.button{
+    background-color: #ffbf23;
+    border-radius: 0.3em;
+    font-size: large;
+    padding:0.6em;
+}
+.pa{
+    font-family: 'Handjet', cursive;
+}
+.button:hover{
+    color:#ffbf23;
+    background-color: black;
+}
+h1{
+    text-transform: uppercase;
+}
+h1 , h2 {
+    font-size: 250%;
+    text-align: center;
+}
+#password{
+    height: 3.5em;
+    width:20em;
+    border-radius:1em;
+}
+#length{
+    width: 2.5em;
+}
+
+
