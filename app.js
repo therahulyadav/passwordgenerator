@@ -33,3 +33,11 @@ const gen = document.querySelector("#gen");
 gen.addEventListener( 'click',()=>{
     genPassword();
 });
+function copyPassword() {
+    password.select();
+    document.execCommand("copy");  
+  }
+const copy = document.querySelector("#copy");
+copy.addEventListener('click',()=>{
+    copyPassword();
+})

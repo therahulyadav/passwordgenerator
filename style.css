@@ -10,6 +10,7 @@ html{
     border-radius: 0.3em;
     font-size: large;
     padding:0.6em;
+    margin: 0.7em;
 }
 .pa{
     font-family: 'Handjet', cursive;
@@ -32,6 +33,15 @@ h1 , h2 {
 }
 #length{
     width: 2.5em;
+    margin-top: 0.5em;
+}
+span{
+    position: absolute;
+    padding: 0.6em;
+
+}
+.box{
+    margin :0.5em;
 }
 
 
